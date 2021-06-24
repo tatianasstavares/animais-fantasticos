@@ -7,8 +7,7 @@ import initTooltip from "./modules/tooltip.js";
 import initDropdownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initAnimateNumbers from "./modules/animate-numbers.js";
-
-console.log("Main");
+import initOpeningHours from "./modules/openingHours.js";
 
 initSmoothScroll();
 initAnimationScroll();
@@ -19,3 +18,4 @@ initTooltip();
 initDropdownMenu();
 initMenuMobile();
 initAnimateNumbers();
+initOpeningHours();
