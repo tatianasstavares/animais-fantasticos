@@ -3,8 +3,6 @@ export default function initOpeningHours() {
   const daysOfWeek = openingHours.dataset.week.split(",").map(Number);
   const hourOfWeek = openingHours.dataset.hour.split(",").map(Number);
 
-  console.log(daysOfWeek, hourOfWeek);
-
   const currentData = new Date();
   const currentDay = currentData.getDay();
   const currentHour = currentData.getHours();
